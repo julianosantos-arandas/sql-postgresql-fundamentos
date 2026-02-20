@@ -1,11 +1,5 @@
--- Aula 02 - SELECT básico
--- Objetivo: consultar dados da tabela person_person
+ 'A equipe de marketing precisa fazer uma pesquisa sobre nomes mais comuns de seus clientes e 
+ precisa do nome e sobrenome de todos os clientes que estão cadastrados no sistema.'
 
-SELECT *
-FROM person_person;
-
-SELECT FirstName, LastName
-FROM person_person;
-
-SELECT FirstName, LastName, PersonType
-FROM person_person;
+SELECT firstname, lastname
+FROM person_person
