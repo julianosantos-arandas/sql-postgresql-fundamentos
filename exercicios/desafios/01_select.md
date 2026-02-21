@@ -7,4 +7,4 @@ SELECT firstname, lastname
 FROM person_person
 
 
-![Resultado do SELECT](exercicios/imagens/01_resultado_select.png)
+![Resultado do SELECT](../imagens/01_resultado_select.png)
