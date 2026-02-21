@@ -5,3 +5,6 @@ A EQUIPE DE MARKETING PRECISA FAZER UMA PESQUISA SOBRE NOMES MAIS COMUNS DE SEUS
 SELECT firstname, lastname
 
 FROM person_person
+
+
+![Resultado do SELECT](../images/01_select_resultado.png)
