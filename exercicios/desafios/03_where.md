@@ -7,4 +7,5 @@ FROM production_product
 
 WHERE "Weight" > 500 AND "Weight" < 700;
 
+
 ![Resultado do Where](../images/03_where.png)
