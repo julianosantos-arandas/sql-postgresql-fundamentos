@@ -17,6 +17,8 @@ SELECT *
 FROM humanresources_employee
 
 WHERE maritalstatus = 'M' and salariedflag = '1';
+
+
 ![Resultado do Where](../imagens/03_where_02.png)
 
 3 - UM USUÁRIO CHAMADO PETER KREBS ESTÁ DEVENDO UM PAGAMENTO, CONSIGA O EMAIL DELE PARA QUE POSSAMOS ENVIAR UMA COBRANÇA!
