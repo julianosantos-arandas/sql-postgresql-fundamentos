@@ -1,10 +1,10 @@
 *DISTINCT - não retorna dados duplicados*
 
-QUANTOS SOBRENOMES ÚNICOS TEMOS NA TABELA person_person?
+1 - QUANTOS SOBRENOMES ÚNICOS TEMOS NA TABELA person_person?
 
-SELECT DISTINCT lastname
+    SELECT DISTINCT lastname
 
-FROM person_person
+    FROM person_person
 
 
 
