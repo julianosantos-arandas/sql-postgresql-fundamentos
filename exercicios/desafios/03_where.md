@@ -23,3 +23,23 @@ WHERE maritalstatus = 'M' and salariedflag = '1';
 
 3 - UM USUÁRIO CHAMADO PETER KREBS ESTÁ DEVENDO UM PAGAMENTO, CONSIGA O EMAIL DELE PARA QUE POSSAMOS ENVIAR UMA COBRANÇA!
 
+SELECT *
+
+FROM person_person
+
+WHERE "FirstName" = 'Peter' and "LastName" = 'Krebs'; 
+
+'POR MEIO DO VALOR DA COLUNA BusinessEntityID, OBTIVE O NÚMERO DE IDENTIFICAÇÃO PARA QUE EU USA-SE 
+COMO REFERẼNCIA NA TABELA person_emailaddress E LOCALIZA-SE O EMAIL.'
+
+
+
+SELECT * 
+
+FROM person_emailaddress
+
+WHERE "EmailAddressID" = 26;
+
+
+![Resultado do Where](../imagens/03_where_03.png)
+
