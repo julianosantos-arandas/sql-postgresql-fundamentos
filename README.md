@@ -17,4 +17,4 @@ Os desafios foram executados utilizando pgAdmin e documentados em arquivos
 - `datasets/`: arquivos CSV utilizados nos estudos (quando aplicável)
 
 ## Dataset utilizado
-- AdventureWorks — tabela Person.Person
+- AdventureWorks 
