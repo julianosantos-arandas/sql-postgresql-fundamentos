@@ -5,7 +5,7 @@
     FROM production_product
 
     WHERE "Name" <> '';
-![Resultado do Count](../imagens/01_count.png).
+![Resultado do Count](../imagens/04_count_01.png).
 
 2 - QUANTOS TAMANHOS DIFERENTES DE PRODUTOS EU TENHO CADASTRADO NA TABELA "PRODUCT"
 
@@ -15,4 +15,4 @@
     
     WHERE "Size" <> '';
 
-![Resultado do Count](../imagens/02_count.png)
+![Resultado do Count](../imagens/04_count_02.png)
