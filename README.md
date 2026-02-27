@@ -13,8 +13,7 @@ Os desafios foram executados utilizando pgAdmin e documentados em arquivos
 
 ## Estrutura do repositório
 - `desafios/`: consultas SQL organizadas por tema
-- `docs/`: explicações e raciocínio dos exercícios
-- `datasets/`: arquivos CSV utilizados nos estudos (quando aplicável)
+- `imagens/`: prints dos resultados para base de links na pasta desafios/
 
 ## Dataset utilizado
 - AdventureWorks 
