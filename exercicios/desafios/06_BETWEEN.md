@@ -18,7 +18,7 @@
 
    nome em ordem alfabética
 
-    SELECT *
+    SELECT "Name", "SellStartDate", "StandardCost", "FinishedGoodsFlag", "SafetyStockLevel", "ReorderPoint"
     FROM production_product
     WHERE "SellStartDate" BETWEEN '2001-01-01' AND '2012-12-31' 
     AND "StandardCost" BETWEEN 100 AND 1000
