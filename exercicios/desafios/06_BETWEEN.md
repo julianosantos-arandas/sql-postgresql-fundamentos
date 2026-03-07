@@ -27,7 +27,7 @@
     "StandardCost" DESC,
     "Name" ASC;
 
-![Resultado_desafio_BETWEEN](../imagens/01_be)
+![Resultado_desafio_BETWEEN](../imagens/06_between_01.png)
 
              
   
