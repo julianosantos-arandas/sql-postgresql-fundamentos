@@ -11,6 +11,18 @@
 ![Resultado do DISTINCT](../imagens/02_resultado_distinct.png)
 
 
+2 - QUANTAS CIDADES ÚNICAS TEMOS ESTÃO CADASTRADOS OS CLIENTES?
+
+    SELECT DISTINCT "city"
+    
+    FROM person_address
+    
+    ORDER BY "city" ASC;
+
+![Resultado do DISTINCT](../imagens/02_resultado_distinct_02.png)
+    
+
+
 
 
 
