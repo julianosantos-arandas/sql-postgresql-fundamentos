@@ -6,4 +6,4 @@
   
     WHERE "LastName" LIKE 'P%';
 
-    ![Resultado_desafio_01_LIKE](../imagens/07_like_01)
+![Resultado_desafio_01_LIKE](../imagens/07_like_01.png)
