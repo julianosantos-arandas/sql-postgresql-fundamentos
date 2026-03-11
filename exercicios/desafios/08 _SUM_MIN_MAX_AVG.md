@@ -16,7 +16,7 @@
     MIN ("UnitPrice") AS "Preço Mínimo"
    
     FROM sales_salesorderdetail;
-![resposta_desafio_01_sum](../imagens/08_sum_02.png)
+![resposta_desafio_01_sum](../imagens/08_Sum_02.png)
 
 3 - Calcule o ticket médio por item vendido.
 
