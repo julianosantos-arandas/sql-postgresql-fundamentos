@@ -32,11 +32,8 @@
 02 - QUAIS PRODUTOS VERMELHOS TEM O PREÇO ENTRE $500 E $1000?
 
     SELECT "Name", "Color", "StandardCost"
-    
     FROM production_product
-     
     WHERE "Color" = 'Red'
-    
     AND "StandardCost" BETWEEN 500 AND 1000;
 
 ![Resultado_desafio_BETWEEN](../imagens/06_between_02.png)
