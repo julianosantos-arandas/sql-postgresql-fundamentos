@@ -34,4 +34,13 @@
     ORDER BY "Total" DESC
     LIMIT 10;
 ![resultado_group_by_04](../imagens/09_group_by_04.png)
-       
+
+5 - QUANTOS PRODUTOS TEMOS CADASTRADO E A MÉDIA DOS MESMOS NAS ORDENS DE SERVIÇO?
+
+    SELECT "productid", 
+    COUNT("productid") AS "quantidade", 
+    AVG("orderqty") AS "media"
+    FROM production_workorder
+    GROUP BY "productid";
+
+![resultado_group_by_04](../imagens/09_group_by_05.png)
