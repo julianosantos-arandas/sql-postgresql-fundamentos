@@ -7,4 +7,4 @@
     GROUP BY "FirstName", "Title"
     HAVING COUNT("Title") >10;
 
-  ![resposta_desafio_having](../imagens/09_having_01.png)
+  ![resposta_desafio_having](../imagens/10_having_01.png)
