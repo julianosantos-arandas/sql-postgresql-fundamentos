@@ -9,4 +9,4 @@
     FROM production_product pp
     INNER JOIN production_productsubcategory ps ON pp."ProductSubcategoryID" = ps."ProductSubcategoryID";
 
-![resultado_]
+![resposta_desafio_joins](../imagens/11_join_01.png)
