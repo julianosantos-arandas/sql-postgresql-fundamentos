@@ -10,3 +10,13 @@
     INNER JOIN production_productsubcategory ps ON pp."ProductSubcategoryID" = ps."ProductSubcategoryID";
 
 ![resposta_desafio_joins](../imagens/11_join_01.png)
+
+OBS: PODEMOS JUNTAR TODAS AS COLUNAS DAS TABELAS SEM DEFINIR COLUNAS ESPECÍFICAS.
+
+    SELECT *
+    FROM person_address pa
+    INNER JOIN person_businessentityaddress pb ON pa.addressid = pb."AddressID"
+    LIMIT 10;
+
+
+![resposta_desafio_joins](../imagens/11_join_02.png)
