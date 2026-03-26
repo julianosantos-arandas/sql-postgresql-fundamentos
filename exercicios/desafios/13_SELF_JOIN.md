@@ -6,4 +6,5 @@
       ON a.region = b.region
       AND a.customer_id < b.customer_id;
 
+![resposta_desafio_self_join](../imagens/13_self_join_01.png)
   
