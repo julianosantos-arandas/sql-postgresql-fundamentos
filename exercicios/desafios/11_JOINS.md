@@ -21,7 +21,7 @@ OBS: PODEMOS JUNTAR TODAS AS COLUNAS DAS TABELAS SEM DEFINIR COLUNAS ESPECÍFICA
 
 ![resposta_desafio_joins](../imagens/11_join_02.png)
 
-2 - DESCOBRIR QUAIS PESSOAS NÃP POSSUEM UM CARTÃO DE CRÉDITO. 
+2 - DESCOBRIR QUAIS PESSOAS NÃO POSSUEM UM CARTÃO DE CRÉDITO. 
 
     SELECT pp."BusinessEntityID", pp."FirstName", pp."LastName", sp."CreditCardID"
     FROM person_person pp
