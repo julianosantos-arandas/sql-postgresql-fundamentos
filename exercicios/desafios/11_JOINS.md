@@ -29,3 +29,14 @@ OBS: PODEMOS JUNTAR TODAS AS COLUNAS DAS TABELAS SEM DEFINIR COLUNAS ESPECÍFICA
     WHERE sp."BusinessEntityID" IS NULL;
 
 ![resposta_desafio_joins](../imagens/11_join_03.png)
+
+
+4- RETORNAR O NOME DOS FUNCIONÁRIOS QUE TEM O CARGO DE DESING ENGINEER.
+
+    SELECT a."FirstName", a."BusinessEntityID", b.jobtitle
+    FROM person_person a
+    INNER JOIN humanresources_employee b
+       ON a."BusinessEntityID" = b.businessentityid
+       AND b.jobtitle = 'Design Engineer';
+
+![resposta_desafio_joins](../imagens/11_join_04.png)
