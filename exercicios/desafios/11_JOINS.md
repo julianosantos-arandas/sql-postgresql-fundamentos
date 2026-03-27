@@ -40,3 +40,11 @@ OBS: PODEMOS JUNTAR TODAS AS COLUNAS DAS TABELAS SEM DEFINIR COLUNAS ESPECÍFICA
        AND b.jobtitle = 'Design Engineer';
 
 ![resposta_desafio_joins](../imagens/11_join_04.png)
+
+5 - RETONRNE TODOS OS ENDEREÇOS QUE ESTÃO NO ESTADO DE ALBERTA.
+
+    SELECT a.stateprovinceid, a.addressline1, b."Name"
+    FROM person_address a 
+    INNER JOIN person_stateprovince b ON a.stateprovinceid = b."StateProvinceID"
+       WHERE "Name" = 'Alberta';
+![resposta_desafio_joins](../imagens/11_join_05.png)
