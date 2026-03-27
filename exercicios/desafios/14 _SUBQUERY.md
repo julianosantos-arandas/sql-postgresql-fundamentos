@@ -28,3 +28,14 @@
 	 WHERE jobtitle = 'Design Engineer');
 
 ![resposta_desafio_self_join](../imagens/14_subquery_02.png)
+
+
+5 - RETONRNE TODOS OS ENDEREÇOS QUE ESTÃO NO ESTADO DE ALBERTA.
+
+    SELECT *
+    FROM person_address
+    WHERE stateprovinceid IN(SELECT "StateProvinceID"
+      FROM person_stateprovince
+      WHERE "Name" = 'Alberta');
+
+![resposta_desafio_self_join](../imagens/14_subquery_03.png)
