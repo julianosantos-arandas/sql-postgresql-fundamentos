@@ -15,3 +15,5 @@
       ) b
     ON a.discount = b.discount
     WHERE a.product_id < b.product_id;
+
+![resposta_desafio_self_join](../imagens/14_subquery_01.png)
