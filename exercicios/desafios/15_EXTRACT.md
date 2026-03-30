@@ -5,4 +5,5 @@
     GROUP BY EXTRACT(MONTH FROM orderdate)
     ORDER BY "mes";
 
-  ![]
+![resposta_desafio_extract](../imagens/15_extract_01.png)
+
