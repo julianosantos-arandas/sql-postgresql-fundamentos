@@ -1,9 +1,11 @@
 1 -  QUAL FOI A MÉDIA DO VALOR DEVIDO POR MÊS.
-
-    SELECT AVG(totaldue) AS "media", EXTRACT(MONTH FROM orderdate) AS "mes"
+ 
+    SELECT 
+        DATE_TRUNC('month', orderdate) AS mes,
+     AVG(totaldue) AS media
     FROM sales_salesorderheader_clean
-    GROUP BY EXTRACT(MONTH FROM orderdate)
-    ORDER BY "mes";
+    GROUP BY mes
+    ORDER BY mes;
 
 ![resposta_desafio_extract](../imagens/15_extract_01.png)
 
