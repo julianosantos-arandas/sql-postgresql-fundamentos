@@ -7,5 +7,5 @@
     GROUP BY mes
     ORDER BY mes;
 
-![resposta_desafio_extract](../imagens/15_extract_01.png)
+![resposta_desafio_extract](../imagens/15_extract_date_trunc_01.png)
 
