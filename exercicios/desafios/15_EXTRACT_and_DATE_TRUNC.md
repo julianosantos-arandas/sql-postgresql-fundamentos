@@ -9,3 +9,12 @@
 
 ![resposta_desafio_extract](../imagens/15_extract_date_trunc_01.png)
 
+2 - SELECIONAR TODAS A COMPRAS POR MÊS DE 2011.
+
+    SELECT  salesorderid,
+    EXTRACT(MONTH FROM orderdate) AS "data"
+    FROM sales_salesorderheader_clean
+    WHERE EXTRACT (YEAR FROM orderdate) = 2011;
+
+![resposta_desafio_extract](../imagens/15_extract_date_trunc_02.png)
+    
