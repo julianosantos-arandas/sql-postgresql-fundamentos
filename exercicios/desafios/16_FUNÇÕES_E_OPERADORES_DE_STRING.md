@@ -41,4 +41,4 @@ VALORES INVÁLIDOS
      ORDER BY "Nome do Cliente";
 
     
-![resposta_desafio_funcoes_operadores](../imagens/16_funcoes_operadores_01.png)
+![resposta_desafio_funcoes_operadores](../imagens/16_funcoes_operadores_03.png)
