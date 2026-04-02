@@ -42,3 +42,24 @@ VALORES INVÁLIDOS
 
     
 ![resposta_desafio_funcoes_operadores](../imagens/16_funcoes_operadores_03.png)
+
+
+4 - ACHE A QUANTIDADE DE BITS E KB DAS COLUNAS FIRSTNAME E LASTNAME, E O TOTAL DE KB DAS DUAS.
+
+
+    WITH base AS (
+    SELECT 
+        SUM(BIT_LENGTH("FirstName")) AS bits_first_name,
+        SUM(BIT_LENGTH("LastName")) AS bits_last_name
+    FROM person_person
+    )
+    SELECT
+        bits_first_name,
+        bits_first_name / 8 / 1024 AS kb_f,
+        bits_last_name,
+        bits_last_name / 8 / 1024 AS kb_l,
+    (bits_first_name + bits_last_name) / 8 / 1024 AS total_kb
+    FROM base;
+
+![resposta_desafio_funcoes_operadores](../imagens/16_funcoes_operadores_04.png)
+
