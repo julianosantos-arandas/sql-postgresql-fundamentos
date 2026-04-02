@@ -20,3 +20,11 @@
     FROM sales_salesorderdetail;
 
 ![resposta_desafio_01_sum](../imagens/08_sum_03.png)
+
+4 - USANDO ROUND.
+
+    SELECT 
+    MAX(ROUND("UnitPrice", 2))
+    FROM sales_salesorderdetail;
+
+![resposta_desafio_01_sum](../imagens/08_sum_04.png)
