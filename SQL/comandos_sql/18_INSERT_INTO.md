@@ -63,3 +63,7 @@ LIVROS (5 REGISTROS)
     WHERE nome_autor = 'Machado de Assis';
 
 ![desafio_insert](../imagens/18_insert_into_02.png)
+
+
+INSERIR A COLUNA nome_autor NA TABELA AUTORES.
+
