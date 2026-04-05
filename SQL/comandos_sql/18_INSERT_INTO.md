@@ -65,5 +65,4 @@ LIVROS (5 REGISTROS)
 ![desafio_insert](../imagens/18_insert_into_02.png)
 
 
-INSERIR A COLUNA nome_autor NA TABELA AUTORES.
 
