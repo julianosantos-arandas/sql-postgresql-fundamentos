@@ -15,25 +15,25 @@
 
 Regras de ordenação (em ordem de importância)
 
-1️⃣ Produtos finalizados (FinishedGoodsFlag = 1) primeiro
-2️⃣ Depois, produtos não finalizados
+🔹Produtos finalizados (FinishedGoodsFlag = 1) primeiro   
+🔹Depois, produtos não finalizados  
 
 Dentro de cada grupo:
 
-3️⃣ Produtos com menor margem de segurança primeiro
+🔹Produtos com menor margem de segurança primeiro
 
 margem de segurança = SafetyStockLevel - ReorderPoint
 quanto menor a diferença, maior o risco
 
-4️⃣ Em seguida, ordenar por:
+🔹 Em seguida, ordenar por:
 
 StandardCost do maior para o menor
 
-5️⃣ Se empatar:
+🔹 Se empatar:
 
 SellStartDate mais antiga primeiro
 
-6️⃣ Se ainda empatar:
+🔹 Se ainda empatar:
 
 Name A → Z
 
