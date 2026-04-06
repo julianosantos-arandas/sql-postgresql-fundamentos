@@ -30,6 +30,8 @@ CRIAR UMA NOVA TABELA COM 3 COLUNAS, DEPOIS:
     telefone INT
     );
 
+![desafio_update](../imagens/19_alter_table_01.png)    
+
 🔹ALTERAR O TIPO DA COLUNA   
 
     ALTER TABLE pizzaria
