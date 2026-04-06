@@ -13,10 +13,16 @@ DELETAR HAMELET DA TABELA LIVROS.
     FROM livros
     WHERE titulo_livro = 'Hamelt';
 
-ANTES 
+🔹ANTES 
 
 ![desafio_update](../imagens/19_upadate.png)
 
-DEPOIS
+🔹DEPOIS
 
 ![desafio_update](../imagens/19_delete.png)
+
+
+CRIAR UMA NOVA TABELA COM 3 COLUNAS, DEPOIS:  
+🔹ALTERAR O TIPO DA COLUNA   
+🔹RENOMEAR UM NOME DE UMA COLUNA   
+🔹RENOMEAR O NOME DA TABELA   
