@@ -12,5 +12,10 @@ TABELA clientes
     INSERT INTO cliente1(nome, idade, email)
     VALUES 
       ('Juliano', 31, 'juliano@gmail.com'),
-	    ('Jessica', 16, 'jessica@gmail.com'),
-	    ('Emmanoel', 21, 'emannoel.gmail.com')
+	  ('Jessica', 16, 'jessica@gmail.com'),
+	  ('Emmanoel', 21, 'emannoel.gmail.com')
+
+
+![desafio_constraint](../imagens/20_constraint_01.png)
+
+![desafio_constraint](../imagens/20_constraint_02.png)
