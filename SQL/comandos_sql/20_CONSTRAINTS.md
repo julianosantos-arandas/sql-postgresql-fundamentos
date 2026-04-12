@@ -39,9 +39,10 @@ TABELA pedidos
 	  (50, 'pago', '2026-04-01'),
 	  (1.800, 'pendente', '2026-05-01')
 
-![desafio_constraint](../imagens/20_constraint_03.png)
+![desafio_constraint](../imagens/20_constraint_03.png) 
+
 ![desafio_constraint](../imagens/20_constraint_04.png)
-![desafio_constraint](../imagens/20_constraint_05.png)
+
 	
  
 
