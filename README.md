@@ -1,9 +1,9 @@
-# SQL com PostgreSQL — Desafios e Exercícios
+# SQL com PostgreSQL — Exercícios
 
 Este repositório contém exercícios práticos de SQL desenvolvidos com
 PostgreSQL, com foco em fundamentos da linguagem e organização do raciocínio.
 
-Os desafios foram executados utilizando pgAdmin e documentados em arquivos
+Os exercícios foram executados utilizando pgAdmin e documentados em arquivos
 `.sql` e `.md` para fins de estudo e portfólio.
 
 ## Tecnologias
@@ -16,4 +16,6 @@ Os desafios foram executados utilizando pgAdmin e documentados em arquivos
 - `imagens/`: prints dos resultados para base de links na pasta `desafios/`
 
 ## Dataset utilizado
-- AdventureWorks 
+- AdventureWorks
+
+# 
