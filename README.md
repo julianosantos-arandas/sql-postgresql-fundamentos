@@ -12,6 +12,7 @@ Os exercícios foram executados utilizando pgAdmin e documentados em arquivos
 - SQL
 
 ## Estrutura do repositório
+- `desafio_sql/`: consultas SQL organizadas por tema
 - `comamdos_sql/`: consultas SQL organizadas por tema
 - `imagens/`: prints dos resultados para base de links na pasta `desafios/`
 
